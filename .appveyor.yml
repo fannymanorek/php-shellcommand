@@ -1,0 +1,10 @@
+before_build:
+  - cmd: echo "test"
+  
+# install pdftk with choco
+
+install:
+  - cinst composer
+
+test_script:
+  - php --version
